@@ -16,12 +16,5 @@
       <description>section &amp;hellip;but this is yet another attempt to start a blog, this time using the Hugo static site generator.
 section 2 </description>
     </item>
-    <item>
-      <title>My Second Blog Post</title>
-      <link>http://localhost:1313/posts/second/</link>
-      <pubDate>Fri, 16 Aug 2024 19:16:37 -0400</pubDate>
-      <guid>http://localhost:1313/posts/second/</guid>
-      <description></description>
-    </item>
   </channel>
 </rss>

@@ -8,7 +8,7 @@ params:
       enabled: true
       Title: 'Encumbered by the vulgar exigencies of objective truth'
       subtitle: "This is my blog for ramblings and projects, whether modernly geeky or medievally nerdy."
-      imageUrl: "http://mbroggyblog.pages.dev/badge.png"
+      imageUrl: "/badge.png" 
       buttons:
         - name: Blog
           url: /tags/blog

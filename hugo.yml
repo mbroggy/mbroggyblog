@@ -4,9 +4,21 @@ title: mbroggy's home
 theme: PaperMod
 
 params:
-  homeInfoParams:
-    Title: 'Encumbered by the vulgar exigencies of objective truth'
-    Content: 'This is my blog for ramblings and projects, whether modernly geeky or medievally nerdy.'
+  profileMode:
+      enabled: true
+      Title: 'Encumbered by the vulgar exigencies of objective truth'
+      subtitle: "This is my blog for ramblings and projects, whether modernly geeky or medievally nerdy."
+      imageUrl: "/badge.png" 
+      buttons:
+        - name: Blog
+          url: /tags/blog
+        - name: Music
+          url: /categories/music
+
+#  homeInfoParams:
+#    Title: 'Encumbered by the vulgar exigencies of objective truth'
+#    Content: 'This is my blog for ramblings and projects, whether modernly geeky or medievally nerdy.'
+
   socialIcons:
     - name: Mastodon
       url: "https://medievalist.masto.host/deck/@maeleoin"
@@ -22,7 +34,7 @@ params:
       url: "http://github.com/mbroggy"
     - name: email
       url: "mailto:mbroggy@gmail.com"
-    
+  
 
   label:
     icon: /badge.png

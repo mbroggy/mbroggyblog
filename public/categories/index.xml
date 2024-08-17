@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Categories on mbroggy&#39;s home</title>
-    <link>http://localhost:1313/categories/</link>
+    <link>http://xooyooz.xyz/categories/</link>
     <description>Recent content in Categories on mbroggy&#39;s home</description>
     <generator>Hugo -- 0.132.2</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 16 Aug 2024 19:16:37 -0400</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://xooyooz.xyz/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Project</title>
-      <link>http://localhost:1313/categories/project/</link>
+      <link>http://xooyooz.xyz/categories/project/</link>
       <pubDate>Fri, 16 Aug 2024 19:16:37 -0400</pubDate>
-      <guid>http://localhost:1313/categories/project/</guid>
+      <guid>http://xooyooz.xyz/categories/project/</guid>
       <description></description>
     </item>
   </channel>

@@ -2,27 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/tags/blog/</loc>
+    <loc>http://xooyooz.xyz/tags/blog/</loc>
     <lastmod>2024-08-16T19:16:37-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>http://xooyooz.xyz/categories/</loc>
     <lastmod>2024-08-16T19:16:37-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/first/</loc>
+    <loc>http://xooyooz.xyz/posts/first/</loc>
     <lastmod>2024-08-16T19:16:37-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://xooyooz.xyz/</loc>
     <lastmod>2024-08-16T19:16:37-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>http://xooyooz.xyz/posts/</loc>
     <lastmod>2024-08-16T19:16:37-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/project/</loc>
+    <loc>http://xooyooz.xyz/categories/project/</loc>
     <lastmod>2024-08-16T19:16:37-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>http://xooyooz.xyz/tags/</loc>
     <lastmod>2024-08-16T19:16:37-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archives/</loc>
+    <loc>http://xooyooz.xyz/archives/</loc>
   </url>
 </urlset>

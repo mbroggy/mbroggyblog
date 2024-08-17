@@ -1,4 +1,4 @@
-baseURL: "http://xooyooz.xyz"
+baseURL: "https://xooyooz.xyz"
 languageCode: en-us
 title: mbroggy's home
 theme: PaperMod
@@ -8,7 +8,7 @@ params:
       enabled: true
       Title: 'Encumbered by the vulgar exigencies of objective truth'
       subtitle: "This is my blog for ramblings and projects, whether modernly geeky or medievally nerdy."
-      imageUrl: "/badge.png" 
+      imageUrl: "https://xooyooz.xyz/badge.png" 
       buttons:
         - name: Blog
           url: /tags/blog

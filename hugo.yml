@@ -2,3 +2,72 @@ baseURL: ""
 languageCode: en-us
 title: mbroggy's home
 theme: PaperMod
+
+params:
+  homeInfoParams:
+    Title: 'Encumbered by the vulgar exigencies of objective truth'
+    Content: 'This is my blog for ramblings and projects, whether modernly geeky or medievally nerdy.'
+  socialIcons:
+    - name: Mastodon
+      url: "https://medievalist.masto.host/deck/@maeleoin"
+    - name: kofi
+      url: "http://ko-fi.com/mbroggy"
+    - name: linkedin
+      url: "http://linkedin.com/in/mbroggy"
+    - name: Facebook
+      url: "http://facebook.com/mbroggy"    
+    - name: discord
+      url: "https://discord.com/users/552299981248135168"
+    - name: GitHub
+      url: "http://github.com/mbroggy"
+    - name: email
+      url: "mailto:mbroggy@gmail.com"
+    
+
+  label:
+    icon: /badge.png
+  env: production
+
+
+  outputs:
+    home:
+      - HTML
+      - RSS
+      - JSON 
+
+  cover:
+    linkFullImages: true
+
+  ShowBreadCrumbs: true
+
+  ShowShareButtons: true
+  ShareButtons: ["linkedin", "facebook"]
+
+  ShowPostNavLinks: true
+
+  ShowCodeCopyButtons: true
+
+  disableSpecial1stPost: true
+
+  ShowWordCount: true
+
+  ShowRssButtonInSectionTermList: true
+
+  ShowToc: true
+  TocOpen: true
+
+
+menu:
+  main:
+    - identifier: categories
+      name: Categories
+      url: /categories/
+      weight: 10
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 20    
+    - identifier: archives
+      name: Archives
+      url: /archives/
+      weight: 30

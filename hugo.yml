@@ -12,8 +12,14 @@ params:
       buttons:
         - name: Blog
           url: /tags/blog
+        - name: SCA
+          url: /categories/sca
         - name: Music
           url: /categories/music
+        - name: Brews
+          url: /categories/brews
+        - name: Roasts
+          url: /categories/roasts
 
 #  homeInfoParams:
 #    Title: 'Encumbered by the vulgar exigencies of objective truth'
@@ -59,14 +65,14 @@ params:
 
   ShowCodeCopyButtons: true
 
-  disableSpecial1stPost: true
+  disableSpecial1stPost: false
 
   ShowWordCount: true
 
   ShowRssButtonInSectionTermList: true
 
   ShowToc: true
-  TocOpen: true
+  TocOpen: false
 
 
 menu:

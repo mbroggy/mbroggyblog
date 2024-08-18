@@ -4,6 +4,9 @@ title: mbroggy's home
 theme: PaperMod
 
 params:
+  assets:
+    disableFingerprinting: true
+  favicon: /favicon.ico
   profileMode:
       enabled: true
       Title: 'Encumbered by the vulgar exigencies of objective truth'

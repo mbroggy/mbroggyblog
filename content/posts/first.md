@@ -20,4 +20,4 @@ Maybe also have a place for some deliberate long-form writing.  I'm not sure tha
 
 Finally, I want to document some of the technical projects I'm working on professionally and personally, in and out of the SCA.  I've been working on a few things that I think are interesting and I want to make sure I'm capturing the process and the results.
 
-I'll document the technical side of this in [tech-projects](/categories/tech-projects) and see if I can be diligent about updating *something* daily.
+I'll document the technical side of this in [projects](/categories/projects) and see if I can be diligent about updating *something* daily.

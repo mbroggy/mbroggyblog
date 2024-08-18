@@ -80,6 +80,10 @@ params:
 
 menu:
   main:
+    - identifier: Search
+      name: Search
+      url: search
+      weight: ...
     - identifier: categories
       name: Categories
       url: /categories/

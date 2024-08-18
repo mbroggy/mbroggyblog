@@ -44,10 +44,9 @@ homeInfoParams:
 #    - name: email
 #      url: "mailto:mbroggy@gmail.com"
   
-
-  label:
-    icon: /badge.png
-  env: production
+label:
+  icon: /badge.png
+env: production
 
 
   outputs:

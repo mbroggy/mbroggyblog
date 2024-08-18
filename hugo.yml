@@ -36,8 +36,6 @@ outputs:
     - HTML
     - RSS
     - JSON 
-    - PDF
-
 
 cover:
   linkFullImages: true
@@ -58,7 +56,7 @@ params:
       url: "http://github.com/mbroggy"
     - name: email
       url: "mailto:mbroggy@gmail.com"
-      
+
   ShowBreadCrumbs: true
 
   ShowShareButtons: true

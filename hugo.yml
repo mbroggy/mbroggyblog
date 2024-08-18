@@ -49,32 +49,32 @@ label:
 env: production
 
 
-  outputs:
-    home:
-      - HTML
-      - RSS
-      - JSON 
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON 
 
-  cover:
-    linkFullImages: true
+cover:
+  linkFullImages: true
 
-  ShowBreadCrumbs: true
+ShowBreadCrumbs: true
 
-  ShowShareButtons: true
-  ShareButtons: ["linkedin", "facebook"]
+ShowShareButtons: true
+ShareButtons: ["linkedin", "facebook"]
 
-  ShowPostNavLinks: true
+ShowPostNavLinks: true
 
-  ShowCodeCopyButtons: true
+ShowCodeCopyButtons: true
 
-  disableSpecial1stPost: false
+disableSpecial1stPost: false
 
-  ShowWordCount: true
+ShowWordCount: true
 
-  ShowRssButtonInSectionTermList: true
+ShowRssButtonInSectionTermList: true
 
-  ShowToc: true
-  TocOpen: false
+ShowToc: true
+TocOpen: false
 
 
 menu:

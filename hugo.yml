@@ -83,7 +83,7 @@ menu:
     - identifier: Search
       name: Search
       url: search
-      weight: ...
+      weight: 1
     - identifier: categories
       name: Categories
       url: /categories/

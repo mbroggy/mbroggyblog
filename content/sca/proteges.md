@@ -1,7 +1,6 @@
 ---
 title: 'Proteges'
-date: 2024-08-18T13:01:06-04:00
-draft: false
+date: 2024-08-18T13:08:07-04:00
 categories: ['sca']
 ---
 

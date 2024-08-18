@@ -3,7 +3,7 @@ languageCode: en-us
 title: mbroggy's home
 theme: PaperMod
 
-#params:
+params:
 #  assets:
 #    disableFingerprinting: true
   #profileMode:
@@ -23,24 +23,10 @@ theme: PaperMod
   #      - name: Roasts
   #        url: /categories/roasts
 
-homeInfoParams:
-   Title: 'Encumbered by the vulgar exigencies of objective truth'
-   Content: 'This is my blog for ramblings and projects, whether modernly geeky or medievally nerdy.'
+  homeInfoParams:
+    Title: 'Encumbered by the vulgar exigencies of objective truth'
+    Content: 'This is my blog for ramblings and projects, whether modernly geeky or medievally nerdy.'
 
-favicon: /favicon.ico
-  
-env: production
-
-outputs:
-  home:
-    - HTML
-    - RSS
-    - JSON 
-
-cover:
-  linkFullImages: true
-
-params: 
   socialIcons:
     - name: Mastodon
       url: "https://medievalist.masto.host/deck/@maeleoin"
@@ -74,6 +60,20 @@ params:
 
   ShowToc: true
   TocOpen: false
+
+  favicon: /favicon.ico
+  
+  env: production
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON 
+
+cover:
+  linkFullImages: true
+
 
 
 menu:

@@ -26,7 +26,8 @@ theme: PaperMod
 homeInfoParams:
    Title: 'Encumbered by the vulgar exigencies of objective truth'
    Content: 'This is my blog for ramblings and projects, whether modernly geeky or medievally nerdy.'
-   favicon: /favicon.ico
+
+favicon: /favicon.ico
 
 socialIcons:
   - name: Mastodon
@@ -44,10 +45,7 @@ socialIcons:
   - name: email
     url: "mailto:mbroggy@gmail.com"
   
-label:
-  icon: /badge.png
 env: production
-
 
 outputs:
   home:
@@ -58,23 +56,24 @@ outputs:
 cover:
   linkFullImages: true
 
-ShowBreadCrumbs: true
+params: 
+  ShowBreadCrumbs: true
 
-ShowShareButtons: true
-ShareButtons: ["linkedin", "facebook"]
+  ShowShareButtons: true
+  ShareButtons: ["linkedin", "facebook"]
 
-ShowPostNavLinks: true
+  ShowPostNavLinks: true
 
-ShowCodeCopyButtons: true
+  ShowCodeCopyButtons: true
 
-disableSpecial1stPost: false
+  disableSpecial1stPost: false
 
-ShowWordCount: true
+  ShowWordCount: true
 
-ShowRssButtonInSectionTermList: true
+  ShowRssButtonInSectionTermList: true
 
-ShowToc: true
-TocOpen: false
+  ShowToc: true
+  TocOpen: false
 
 
 menu:

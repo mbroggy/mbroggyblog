@@ -1,5 +1,7 @@
 {{- define "main" }}
 
+{{- $counter := 0 }}
+
 {{- if (and site.Params.profileMode.enabled .IsHome) }}
 {{- partial "index_profile.html" . }}
 {{- else }} {{/* if not profileMode */}}
@@ -68,8 +70,13 @@
   {{- $isHidden := (.Param "cover.hiddenInList") | default (.Param "cover.hidden") | default false }}
   {{- partial "cover.html" (dict "cxt" . "IsSingle" false "isHidden" $isHidden) }}
   {{ range .Params.categories }}
-  <a href="{{ "/categories/" | relLangURL }}{{ . | urlize }}"><i class="fa-solid fa-hashtag"></i> {{ . }}</a>
-{{ end }}
+    {{ $counter = add $counter 1 }}
+    {{ if math.ModBool $counter 2 }}
+      <a href="{{ "/categories/" | relLangURL }}{{ . | urlize }}" style="color:#f76c5e; font-weight:bold"><i class="fa-solid fa-hashtag"></i> {{ . }}</a>
+    {{ else }}
+      <a href="{{ "/categories/" | relLangURL }}{{ . | urlize }}" style="color:#048A81; font-weight:bold"><i class="fa-solid fa-hashtag"></i> {{ . }}</a>
+    {{ end }}
+ {{ end }}
 
   <header class="entry-header">
     

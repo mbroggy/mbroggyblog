@@ -42,7 +42,11 @@ button#theme-toggle {
 }
 
 a:nth-child(odd) {
-    color: #d17373;
+    color: #B8621B;
+}
+
+a:nth-child(even) {
+    color: #b89b1b;
 }
 
 a:hover {

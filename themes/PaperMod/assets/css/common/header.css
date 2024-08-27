@@ -41,6 +41,18 @@ button#theme-toggle {
     margin: auto 4px;
 }
 
+a:nth-child(odd) {
+    color: #d17373;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
 body.dark #moon {
     vertical-align: middle;
     display: none;

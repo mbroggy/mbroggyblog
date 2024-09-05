@@ -58,6 +58,8 @@ params:
 
   ShowRssButtonInSectionTermList: true
 
+  enableGitInfo: true
+
   ShowToc: true
   TocOpen: false
 

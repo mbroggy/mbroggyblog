@@ -8,11 +8,11 @@ Keeping track of our Nespresso capsules on hand, planned purchases, and notes on
 <!--more-->
 
 * [Istanbul](https://www.nespresso.com/us/en/order/capsules/original/istanbul-espresso-coffee-pods)
-* [Viena](https://www.nespresso.com/us/en/order/capsules/original/vienna-linzio-coffee-pods)
-* [Inspirazione Palermo Kazaar](https://www.nespresso.com/us/en/order/capsules/original/inspirazione-palermo-kazaar-coffee-pods)
+* [Vienna](https://www.nespresso.com/us/en/order/capsules/original/vienna-linizio-lungo-coffee-pods)
+* [Palermo Kazaar](https://www.nespresso.com/us/en/order/capsules/original/ispirazione-palermo-coffee-capsule)
 * [Chiaro](https://www.nespresso.com/us/en/order/capsules/original/chiaro-coffee-pods)
-* [Scuro](https://www.nespresso.com/us/en/order/capsules/original/scuro-coffee-pods)
+* [Scuro](https://www.nespresso.com/us/en/order/capsules/original/nespresso-barista-creations-scuro-coffee-capsules)
 * [Corto](https://www.nespresso.com/us/en/order/capsules/original/corto-coffee-pods)
 * [Vaniligia](https://www.nespresso.com/us/en/order/capsules/original/vaniglia-coffee-pods)
-* [Pumpkin Spice Cake](https://www.nespresso.com/us/en/order/capsules/original/pumpkin-spice-cake-coffee-pods)
+* [Pumpkin Spice Cake](https://www.nespresso.com/us/en/order/capsules/original/pumpkin-spice-cake-limited-edition-coffee-pods)
 

@@ -4,7 +4,9 @@ date: 2024-08-30T18:27:40-04:00
 categories: ['sca']
 ---
 
-I have a few proteges in the SCA; while I will teach anyone who asks, I don't require that they be my protege. Some asked me, some I asked.
+I have a few proteges in the SCA; while I will teach anyone who asks, I don't require that they be my protege. 
+
+<!--more-->
 
 ## Current Proteges
 

@@ -4,6 +4,8 @@ date: {{ .Date }}
 categories: ['bass']
 ---
 
+<!--more-->
+
 Practice time: 
 
 Songs: 

@@ -1,10 +1,13 @@
 ---
 title: 'Gear'
-date: 2024-08-30T18:28:00-04:00
+date: 2024-09-01T18:28:00-04:00
 categories: ['bass']
+draft: ['false']
 ---
 
 Before going into any practicing, etc. I might be doing, here's the gear I have, starting with what I use most often:
+
+<!- more ->
 
 Main setup:
 - Ibanez 5-String Bass (signed by Victor Wooten and Steve Bailey)

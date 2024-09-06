@@ -4,6 +4,8 @@ date: {{ .Date }}
 categories: ['health']
 ---
 
+<!--more-->
+
 Weigh-in: 
 
 Breakfast:

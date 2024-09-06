@@ -1,7 +1,6 @@
 ---
 title: "Once more into the breach..."
 date: 2024-08-16T19:16:37-04:00
-draft: false
 author: mbroggy
 categories: ["blog"]
 ---

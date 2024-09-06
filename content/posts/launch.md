@@ -3,7 +3,6 @@ title: 'OK, Hugo is working'
 date: 2024-08-26T23:16:07-04:00
 categories: ['tech']
 tags: ['hugo']
-draft: false
 ---
 I've been procrastinating actually _using_ this, but if I keep messing around with the look and feel, it'll never get content...
 <!--more-->

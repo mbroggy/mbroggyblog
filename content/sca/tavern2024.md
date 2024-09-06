@@ -6,7 +6,8 @@ categories: ['sca']
 tags: ['cooking', 'tavern']
 ---
 
-I love tavern-style events, those events in the SCA which tend to be low-key overall and often relaxed when it comes to food as well. Bear's Tavern was one of the first regular events I was able to make it to, starting out in the SCA, and the memories of being in the kitchen and the event overall really stuck with me.
+I love tavern-style events, those events in the SCA which tend to be low-key overall and often relaxed when it comes to food as well. <!--more-->
+Bear's Tavern was one of the first regular events I was able to make it to, starting out in the SCA, and the memories of being in the kitchen and the event overall really stuck with me.
 
 I started Bhakail's annual Tavern event in 2016 with an eye towards not only recreating the experience but also to provide an event-with-training-wheels for new(er) event stewards and cooks.
 

@@ -5,6 +5,7 @@ categories: ['books']
 ---
 
 Title:
+<!--more-->
 
 Author:
 

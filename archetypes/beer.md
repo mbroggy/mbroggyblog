@@ -5,6 +5,10 @@ categories: ['brewing']
 tags: ['style','all grain/extract','on tap','on deck','planned brew']
 ---
 
+Style / brief summary of the beer
+
+<!--more-->
+
 [Recipe](Brewfather or official kit recipe) 
 
 ## Characteristics

@@ -1,7 +1,8 @@
 ---
 title: 'Nespresso inventory'
 date: 2024-09-05   
-categories: ['coffee', 'nespresso','inventory']
+categories: ['coffee']
+tags: ['nespresso','inventory']
 ---
 
 Keeping track of our Nespresso capsules on hand, planned purchases, and notes on capsules we've tried.

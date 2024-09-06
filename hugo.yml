@@ -63,6 +63,8 @@ params:
   ShowToc: true
   TocOpen: false
 
+  ShowAllPagesInArchive: true
+
   favicon: /favicon.ico
   
   env: production

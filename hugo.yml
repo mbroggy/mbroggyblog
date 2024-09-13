@@ -4,24 +4,8 @@ title: mbroggy's home
 theme: PaperMod
 
 params:
-#  assets:
-#    disableFingerprinting: true
-  #profileMode:
-  #    enabled: false
-  #    Title: 'Encumbered by the vulgar exigencies of objective truth'
-  #    subtitle: "This is my blog for ramblings and projects, whether modernly geeky or medievally nerdy."
-  #    imageUrl: "https://xooyooz.xyz/badge.png" 
-  #    buttons:
-  #      - name: Blog
-  #        url: /tags/blog
-  #      - name: SCA
-  #        url: /categories/sca
-  #      - name: Music
-  #        url: /categories/music
-  #      - name: Brews
-  #        url: /categories/brews
-  #      - name: Roasts
-  #        url: /categories/roasts
+  # Set the number of posts per page
+  paginate: 10
 
   homeInfoParams:
     Title: 'Encumbered by the vulgar exigencies of objective truth'

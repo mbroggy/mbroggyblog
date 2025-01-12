@@ -4,10 +4,7 @@ title: mbroggy's home
 theme: PaperMod
 
 params:
-  # Allow disqus commenting
-  services:
-    disqus:
-    shortname: mbroggy
+  # Allow gisqus commenting
   comments: true
   # Set the number of posts per page
   paginate: 10

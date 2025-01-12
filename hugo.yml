@@ -5,7 +5,7 @@ theme: PaperMod
 
 params:
   # Allow gisqus commenting
-  comments: true
+  comments: false
   # Set the number of posts per page
   paginate: 10
 

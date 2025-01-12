@@ -4,6 +4,7 @@ title: mbroggy's home
 theme: PaperMod
 
 params:
+
   comments: false
   # Set the number of posts per page
   paginate: 20
@@ -65,6 +66,10 @@ cover:
 
 menu:
   main:
+    - identifier: Blog
+      name: Blog
+      url: /categories/blog/
+      weight: 1
     - identifier: Search
       name: Search
       url: search

@@ -6,6 +6,9 @@ outputs: ["HTML", "RSS"]
 summary: "About this site and its author"
 ---
 
+## Linkstack
+I maintain a [linkstack](https://xooyooz.com) which lists where else I post (and read) online.
+
 ## This site
 ### What is it for?
 Accountability, mainly. Sharing, secondarily.
@@ -20,11 +23,13 @@ Whether it's coding, brewing, cooking, music, or whatever else I'm up to, I'm go
 ## The author
 ### I'm Michael Broggy. 
 
-I'm a technologist, brewer, cook and budding musician. I grew up in Dublin, Ireland but have been in the US since Junior High. I've lived in NYC, Utah, and now the Philly suburbs. 
+I'm a technologist, brewer, cook and on and on... 
+
+I grew up in Dublin, Ireland but have been in the US since Junior High. I've lived in NYC, Utah, and now the Philly suburbs. 
 
 I've owned [computers](/posts/computers) since 1982 and taught myself a variety of skills along the way since, especially early on, reference resources weren't readily available. I turned self-taught skills into a career and continue to do a variety of things professionally and as a hobbyist.
 
-[Brewing beer](/posts/brewing) was something I started with a friend a while back; I progressed from extract to all-grain brewing, moving from stovetop to propane and from there to all-in-one systems. I personally prefer continental styles, but tend to be all over the place when it comes time to brew.
+[Brewing beer](/categories/brewing) was something I started with a friend a while back; I progressed from extract to all-grain brewing, moving from stovetop to propane and from there to all-in-one systems. I personally prefer continental styles, but tend to be all over the place when it comes time to brew.
 
 [Playing bass](/posts/bass) is something I put effort into over the pandemic; I've owned a bass for many years but never really put the time in to learn it and couldn't stand the lessons offered at the local music store. Learning from [Paul Hutchison](https://paulhutchison.net/) has been a game changer for me.
 

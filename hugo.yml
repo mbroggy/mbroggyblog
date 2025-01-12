@@ -4,10 +4,9 @@ title: mbroggy's home
 theme: PaperMod
 
 params:
-  # Allow gisqus commenting
   comments: false
   # Set the number of posts per page
-  paginate: 10
+  paginate: 20
 
   homeInfoParams:
     Title: 'Encumbered by the vulgar exigencies of objective truth'

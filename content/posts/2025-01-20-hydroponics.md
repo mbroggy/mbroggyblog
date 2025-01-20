@@ -10,7 +10,7 @@ Full planting map as of 1/19/25
 <!--more-->
 | Top shelf |
 |----------|----------|----------|----------|----------|
-| Royal Oakleaf 12/20 | Prizehead 12/20 | Parris Island 12/20 | Kale 12/20 | Chard 12/20 | 
+| Royal Oakleaf 12/20 | Prizehead 12/20 | Parris Island 12/20 | Kale 12/20 | Chard 12/20 |
 | ?  1/2 | ? 1/2 | ? 1/2 | ? 1/2 | ? 1/2 |
 
 | Middle shelf |
@@ -19,7 +19,6 @@ Full planting map as of 1/19/25
 | Celtuce 1/15 | Prizehead 1/19 | Prizehead 1/19 | Lemon basil 1/19 | Lemon basil 1/19 |
 
 (Two additional Royal Oakleaf 1/19 in between row 1 and 2)
-
 
 | Bottom shelf |
 |----------|----------|----------|----------|----------|

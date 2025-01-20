@@ -2,7 +2,7 @@
 title: Hydroponics initial full layout
 date: 2025-01-20T02:37:19.071Z
 preview: ""
-draft: true
+draft: false
 tags: []
 categories:
     - hydroponics

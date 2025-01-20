@@ -4,7 +4,8 @@ date: 2025-01-20T02:37:19.071Z
 preview: ""
 draft: true
 tags: []
-categories: ["hydroponics"]
+categories:
+    - hydroponics
 ---
 Full planting map as of 1/19/25
 <!--more-->

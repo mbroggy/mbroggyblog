@@ -6,6 +6,7 @@ draft: false
 tags: []
 categories:
     - hydroponics
+    - blog
 ---
 Full planting map as of 1/19/25
 <!--more-->

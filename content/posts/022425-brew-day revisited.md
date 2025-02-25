@@ -19,9 +19,9 @@ Another experiment done as part of this was bread. I used a modern no-knead brea
 
 This time, I made the recipe except that I combined the dry ingredients (flour, salt) into three equal amounts. I divided the water in thirds, too, then added three different yeasts with the water into the dry ingredients.
 
-# One third got regular (bread) yeast as a control.
-# One third got yeast via harvesting barm from the ale which used the London Ale yeast (the first ale brewed, since it was further along).
-# One third got yeast harvested from the _lees_ of a stout I had made previously.
+* One third got regular (bread) yeast as a control.
+* One third got yeast via harvesting barm from the ale which used the London Ale yeast (the first ale brewed, since it was further along).
+* One third got yeast harvested from the _lees_ of a stout I had made previously.
 
 The harvested barm was what we had also used for the meads. The third portion of yeast was a "washed" yeast where you reserve trub from a beer fermentation and "wash" it a number of times (adding water and letting things settle out, with the intent of slowly winding up with 3 layers in a vessel: trub on the bottom, a bright white yeast layer and clear water on top).
 

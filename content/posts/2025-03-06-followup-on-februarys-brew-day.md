@@ -11,6 +11,7 @@ Long story short: the beer's good. The bread failed up front. The mead didn't ta
 <!--more-->
 
 [There was a medieval brew day](https://xooyooz.xyz/posts/022225-brew-day/) with a few goals in mind:
+
 1. Make ale
 1. Make mead with yeast harvested from the ale barm
 1. Make bread with the yeast harvested from the ale barm

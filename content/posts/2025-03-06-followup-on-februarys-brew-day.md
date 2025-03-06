@@ -22,7 +22,7 @@ The mead, specifically, was the driver for all of this; the original recipe ment
 
 The bread didn't rise and the mead didn't ferment. 
 
-...but the recipe *also* didn't actually say to use the barm.  It said to use the lees...which...yeah, that would've worked out much better ;)
+...but the recipe **also** didn't actually say to use the barm.  It said to use the lees...which...yeah, that would've worked out much better ;)
 
 So...hey, at least I have 10 gallons of 1503 ale kicking about. I think I'll add some of it to some meat pies, add some to bread, etc. and get some plausibly medieval uses out of it. I can harvest the lees, too; the mead still needs to ferment, so I could see about getting the lees to the mead (2+ hours away) or start another here (which would be much easier).
 

@@ -20,7 +20,7 @@ OK, well, a few days; the ales were made 1 and 2 days beforehand in order to try
 
 The mead, specifically, was the driver for all of this; the original recipe mentioned using ale barm so that led to making ale to get barm, then using the barm in the mead and, hey, why not also a bread?
 
-The bread didn't rise and the mead didn't ferment. 
+The bread didn't rise and the mead didn't ferment.
 
 ...but the recipe **also** didn't actually say to use the barm.  It said to use the lees...which...yeah, that would've worked out much better ;)
 

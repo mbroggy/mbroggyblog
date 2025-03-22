@@ -42,6 +42,12 @@ for filename in os.listdir(POSTS_DIR):
         qr_filepath = os.path.join(IMAGES_DIR, qr_filename)
         img.save(qr_filepath)
 
+        # Add the QR code path to the front matter if not present
+        if 'qr' not in post:
+            post['qr'] = f"/images/{qr_filename}"
+            with open(post_path, "w", encoding="utf-8") as f:
+                f.write(frontmatter.dumps(post))
+
         # Print the Markdown reference with the lowercase slug
         print(
             f"For {filename}, use:\n"

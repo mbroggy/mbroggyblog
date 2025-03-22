@@ -1,0 +1,4 @@
+.qr-float {
+    float: right;      /* or left, if you prefer */
+    margin: 0 0 1rem 1rem; /* adds spacing around the floated container */
+  }

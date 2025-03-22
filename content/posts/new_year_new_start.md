@@ -1,8 +1,12 @@
 ---
-title: 'New year, new (re)start'
-date: 2025-01-11T14:58:19-05:00
-categories: ['blog','tech']
+categories:
+- blog
+- tech
+date: 2025-01-11 19:58:19
+qr: /images/qr-new_year_new_start.png
+title: New year, new (re)start
 ---
+
 Looking at shifting from Facebook, orienting efforts elsewhere...and picking this up again.
 <!--more-->
 I've wanted to ditch FB for a while, now, but couldn't pull the trigger on it.

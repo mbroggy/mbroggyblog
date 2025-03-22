@@ -1,12 +1,16 @@
 ---
-title: Followup on medieval brew day
-description: "Checking in on the outcomes of the Feb 22nd 2025 medieval brew day"
-date: 2025-03-06T21:50:46.772Z
-preview: ""
+categories:
+- brewing
+- sca
+date: 2025-03-06 21:50:46.772000
+description: Checking in on the outcomes of the Feb 22nd 2025 medieval brew day
 draft: false
+preview: ''
+qr: /images/qr-2025-03-06-followup-on-februarys-brew-day.png
 tags: []
-categories: ['brewing', 'sca']
+title: Followup on medieval brew day
 ---
+
 Long story short: the beer's good. The bread failed up front. The mead didn't take off.
 <!--more-->
 

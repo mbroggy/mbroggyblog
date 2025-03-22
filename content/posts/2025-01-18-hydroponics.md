@@ -1,13 +1,15 @@
 ---
-title: Hydroponics
-description: ""
-date: 2025-01-18T02:10:37.461Z
-preview: ""
-draft: false
-tags: []
 categories:
-    - hydroponics
+- hydroponics
+date: 2025-01-18 02:10:37.461000
+description: ''
+draft: false
+preview: ''
+qr: /images/qr-2025-01-18-hydroponics.png
+tags: []
+title: Hydroponics
 ---
+
 Right before Christmas, I got started in hydroponics. Before long, I needed more stuff...
 <!--more-->
 First, I bought an [iDOO 20 pod kit](https://www.amazon.com/iDOO-Germination-Removable-Hydroponics-Adjustable/dp/B08R88NJZZ?th=1). This seemed great - why go with a handful of pods if you could have a few handfuls? - but quickly proved not the best idea for what I had planned.

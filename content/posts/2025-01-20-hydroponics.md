@@ -1,13 +1,15 @@
 ---
-title: Hydroponics initial full layout
-date: 2025-01-20T02:37:19.071Z
-preview: ""
-draft: false
-tags: []
 categories:
-    - hydroponics
-    - blog
+- hydroponics
+- blog
+date: 2025-01-20 02:37:19.071000
+draft: false
+preview: ''
+qr: /images/qr-2025-01-20-hydroponics.png
+tags: []
+title: Hydroponics initial full layout
 ---
+
 Full planting map as of 1/19/25
 <!--more-->
 | Top shelf |

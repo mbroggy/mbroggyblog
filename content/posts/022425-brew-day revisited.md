@@ -1,12 +1,16 @@
 ---
-title: Checking in on 022225 brews
-description: "Where the brewing wound up..."
+categories:
+- brewing
+- sca
 date: 2025-02-21
-preview: ""
+description: Where the brewing wound up...
 draft: false
+preview: ''
+qr: /images/qr-022425-brew-day revisited.png
 tags: []
-categories: ['brewing','sca']
+title: Checking in on 022225 brews
 ---
+
 After a few days, here's where we are:
 
 For the ales: the first batch - the one with the London Ale yeast - went from 1.045 to 1.013 and is done, sitting at 4.2%  I've had a few glasses of it straight from the fermenter (no carbonation) and I like it... yes, some carbonation would work well for it, but even as-is, it's a nice, easy drink.

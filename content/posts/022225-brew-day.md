@@ -1,12 +1,16 @@
 ---
-title: Medieval brew day Feb 22nd 2025
-description: "A couple of us are making brews and using brewing byproducts..."
+categories:
+- brewing
+- sca
 date: 2025-02-21
-preview: ""
+description: A couple of us are making brews and using brewing byproducts...
 draft: false
+preview: ''
+qr: /images/qr-022225-brew-day.png
 tags: []
-categories: ['brewing','sca']
+title: Medieval brew day Feb 22nd 2025
 ---
+
 A friend has been wanting to brew a particular mead recipe for a while; problem is, it uses ale barm.
 
 Last year, a bunch of us gathered to make the mead over an open fire, etc. but using commercial yeast because of timing.  We all wanted to try again with actual ale barm, but that meant scheduling the ale fermentation to line up with the mead brew day...

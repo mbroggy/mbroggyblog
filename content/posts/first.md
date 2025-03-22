@@ -1,8 +1,10 @@
 ---
-title: "Once more into the breach..."
-date: 2024-08-16T19:16:37-04:00
 author: mbroggy
-categories: ["blog"]
+categories:
+- blog
+date: 2024-08-16 23:16:37
+qr: /images/qr-first.png
+title: Once more into the breach...
 ---
 
 I don't know how many times I've started a blog or a website to document projects, but here goes another.

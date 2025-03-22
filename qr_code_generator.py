@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # filepath: c:\Users\Michael Broggy\code\mbroggyblog\qr_code_generator.py
 import os
+import frontmatter
 import qrcode
 
 # Directory paths (adjust as needed)
@@ -12,16 +13,20 @@ BASE_URL = "https://xooyooz.xyz"
 if not os.path.exists(IMAGES_DIR):
     os.makedirs(IMAGES_DIR)
 
-# Iterate through .md files in posts directory
 for filename in os.listdir(POSTS_DIR):
     if filename.endswith(".md"):
         post_path = os.path.join(POSTS_DIR, filename)
 
-        # Extract the exact slug from the filename (no forced lowercase)
-        base_name = os.path.splitext(filename)[0]
+        # Parse front matter from the file
+        with open(post_path, "r", encoding="utf-8") as f:
+            post = frontmatter.load(f)
 
-        # Build the post URL using the same case
-        post_url = f"{BASE_URL}/posts/{base_name}/"
+        # If there's a 'slug' in front matter, use it; otherwise use the filename (no forced lowercase)
+        base_name = os.path.splitext(filename)[0]
+        slug = post.get("slug", base_name)
+
+        # Build the post URL to match case from slug or filename
+        post_url = f"{BASE_URL}/posts/{slug}/"
 
         # Generate the QR code
         img = qrcode.make(post_url)
@@ -30,12 +35,12 @@ for filename in os.listdir(POSTS_DIR):
         img = img.resize((125, 125))
 
         # Save the QR code image
-        qr_filename = f"qr-{base_name}.png"
+        qr_filename = f"qr-{slug}.png"
         qr_filepath = os.path.join(IMAGES_DIR, qr_filename)
         img.save(qr_filepath)
 
         # Print the Markdown reference
         print(
             f"For {filename}, use:\n"
-            f"![QR code for {base_name}](/images/{qr_filename})\n"
+            f"![QR code for {slug}](/images/{qr_filename})\n"
         )

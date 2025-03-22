@@ -1,5 +1,5 @@
 ---
-title: Ginger beer II: 5 gallons
+title: "Ginger beer II: 5 gallons"
 description: Brewing ginger beer, again, and using byproducts
 date: 2025-03-22
 draft: false

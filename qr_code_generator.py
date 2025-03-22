@@ -16,13 +16,13 @@ if not os.path.exists(IMAGES_DIR):
 for filename in os.listdir(POSTS_DIR):
     if filename.endswith(".md"):
         post_path = os.path.join(POSTS_DIR, filename)
-        
-        # Extract a slug from the filename (e.g., 2025-03-22-ginger-beer-II)
+
+        # Extract the exact slug from the filename (no forced lowercase)
         base_name = os.path.splitext(filename)[0]
-        
-        # Build a URL for this post (slug-based)
+
+        # Build the post URL using the same case
         post_url = f"{BASE_URL}/posts/{base_name}/"
-        
+
         # Generate the QR code
         img = qrcode.make(post_url)
 
@@ -33,8 +33,8 @@ for filename in os.listdir(POSTS_DIR):
         qr_filename = f"qr-{base_name}.png"
         qr_filepath = os.path.join(IMAGES_DIR, qr_filename)
         img.save(qr_filepath)
-        
-        # Print or insert the Markdown text to link the QR code
+
+        # Print the Markdown reference
         print(
             f"For {filename}, use:\n"
             f"![QR code for {base_name}](/images/{qr_filename})\n"

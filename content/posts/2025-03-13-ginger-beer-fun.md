@@ -6,13 +6,12 @@ draft: false
 tags: []
 categories: ['brewing']
 preview: /images/PXL_20250312_232136731.jpg
+qr: "/images/qr-2025-03-13-ginger-beer-fun.png" 
 ---
 I wanted to brew a probiotic ginger beer and came away with a fun and tasty byproduct...
 <!--more-->
 
 ![ginger beer and candied ginger](/images/PXL_20250312_232136731.jpg)
-
-![QR code for 2025-03-13-ginger-beer-fun](/images/qr-2025-03-13-ginger-beer-fun.png)
 
 I'm making ginger beer as a probiotic alternative to soda, mixer, etc. Sugar, ginger, lemon zest, lemon juice and yeast. You can keep it as a syrup or diluted like this as a ready drink. I could see the syrup being useful, too, by omitting the yeast and not adding more water... Just add to seltzer for a similar outcome, but you lose a lot of the extra benefit from the yeast.
 

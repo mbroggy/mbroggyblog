@@ -9,7 +9,7 @@ categories: ['brewing']
 After the success of the last batch, I'm doing a second.  Bigger, because why not?
 <!--more-->
 
-![QR code for 2025-03-22-ginger-beer-II](/images/qr-2025-03-22-ginger-beer-II.png)
+![QR code for 2025-03-22-ginger-beer-ii](/images/qr-2025-03-22-ginger-beer-ii.png)
 
 After we enjoyed the initial ginger beer attempt, it was going to be a staple. Figuring out a house recipe would be awesome and if we could have a custom probiotic drink on hand - especially something that could be had as-is, diluted if needed or included in mixed drinks of various sorts, hey, wins all around.
 

@@ -5,12 +5,9 @@ date: 2025-03-22
 draft: false
 tags: []
 categories: ['brewing']
-preview: 
 ---
 After the success of the last batch, I'm doing a second.  Bigger, because why not?
 <!--more-->
-
-![ginger beer and candied ginger](/images/PXL_20250312_232136731.jpg)
 
 After we enjoyed the initial ginger beer attempt, it was going to be a staple. Figuring out a house recipe would be awesome and if we could have a custom probiotic drink on hand - especially something that could be had as-is, diluted if needed or included in mixed drinks of various sorts, hey, wins all around.
 

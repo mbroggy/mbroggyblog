@@ -13,6 +13,7 @@ I have a few proteges in the SCA; while I will teach anyone who asks, I don't re
 - [Lady Chana Freidl the Maker](https://wiki.eastkingdom.org/index.php?title=Chana_Freidl_the_Maker)
 - [Lord Aiden Underhill](https://wiki.eastkingdom.org/index.php?title=Aiden_Underhill)
 - [Baroness Yasamin al-Sardinia](https://wiki.eastkingdom.org/index.php?title=Yasamin_al-Sardinia)
+- [Milord Anselm Höfer](https://wiki.eastkingdom.org/wiki/Anshelm_H%C3%B6fer)
 
 ## Former Proteges
 

@@ -6,8 +6,6 @@ description: Brewing ginger beer and using byproducts
 draft: false
 preview: /images/PXL_20250312_232136731.jpg
 qr: /images/qr-2025-03-13-ginger-beer-fun.png
-qr_dark: /images/qr-2025-03-13-ginger-beer-fun-dark.png
-qr_light: /images/qr-2025-03-13-ginger-beer-fun-light.png
 tags: []
 title: Ginger beer fun
 ---

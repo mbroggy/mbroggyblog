@@ -3,8 +3,6 @@ categories:
 - tech
 date: 2024-08-27 03:16:07
 qr: /images/qr-launch.png
-qr_dark: /images/qr-launch-dark.png
-qr_light: /images/qr-launch-light.png
 tags:
 - hugo
 title: OK, Hugo is working

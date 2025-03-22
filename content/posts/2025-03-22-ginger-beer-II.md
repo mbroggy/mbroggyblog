@@ -5,8 +5,6 @@ date: 2025-03-22
 description: Brewing ginger beer, again, and using byproducts
 draft: false
 qr: /images/qr-2025-03-22-ginger-beer-ii.png
-qr_dark: /images/qr-2025-03-22-ginger-beer-ii-dark.png
-qr_light: /images/qr-2025-03-22-ginger-beer-ii-light.png
 tags: []
 title: 'Ginger beer II: 5 gallons'
 ---

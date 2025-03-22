@@ -4,8 +4,6 @@ categories:
 - tech
 date: 2025-01-11 19:58:19
 qr: /images/qr-new_year_new_start.png
-qr_dark: /images/qr-new_year_new_start-dark.png
-qr_light: /images/qr-new_year_new_start-light.png
 title: New year, new (re)start
 ---
 

@@ -6,8 +6,6 @@ description: ''
 draft: false
 preview: ''
 qr: /images/qr-2025-01-18-hydroponics.png
-qr_dark: /images/qr-2025-01-18-hydroponics-dark.png
-qr_light: /images/qr-2025-01-18-hydroponics-light.png
 tags: []
 title: Hydroponics
 ---

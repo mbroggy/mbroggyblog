@@ -7,8 +7,6 @@ description: Checking in on the outcomes of the Feb 22nd 2025 medieval brew day
 draft: false
 preview: ''
 qr: /images/qr-2025-03-06-followup-on-februarys-brew-day.png
-qr_dark: /images/qr-2025-03-06-followup-on-februarys-brew-day-dark.png
-qr_light: /images/qr-2025-03-06-followup-on-februarys-brew-day-light.png
 tags: []
 title: Followup on medieval brew day
 ---

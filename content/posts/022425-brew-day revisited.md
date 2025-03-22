@@ -7,8 +7,6 @@ description: Where the brewing wound up...
 draft: false
 preview: ''
 qr: /images/qr-022425-brew-day revisited.png
-qr_dark: /images/qr-022425-brew-day revisited-dark.png
-qr_light: /images/qr-022425-brew-day revisited-light.png
 tags: []
 title: Checking in on 022225 brews
 ---

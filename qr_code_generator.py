@@ -3,6 +3,7 @@
 import os
 import frontmatter
 import qrcode
+from PIL import Image
 
 # Directory paths (adjust as needed)
 POSTS_DIR = r"c:\Users\Michael Broggy\code\mbroggyblog\content\posts"
@@ -12,6 +13,9 @@ BASE_URL = "https://xooyooz.xyz"
 # Ensure images directory exists
 if not os.path.exists(IMAGES_DIR):
     os.makedirs(IMAGES_DIR)
+
+MAIN_TEXT_COLOR = "#707070"  
+BACKGROUND_COLOR = "#001000"
 
 for filename in os.listdir(POSTS_DIR):
     if filename.endswith(".md"):
@@ -31,10 +35,16 @@ for filename in os.listdir(POSTS_DIR):
         # Build the post URL using the lowercase slug
         post_url = f"{BASE_URL}/posts/{slug_lower}/"
 
-        # Generate the QR code
-        img = qrcode.make(post_url)
-
-        # Resize to 125x125
+        # Generate the QR code with the main text color as the foreground and black as the background
+        qr = qrcode.QRCode(
+            version=1,
+            error_correction=qrcode.constants.ERROR_CORRECT_L,
+            box_size=10,
+            border=4,
+        )
+        qr.add_data(post_url)
+        qr.make(fit=True)
+        img = qr.make_image(fill_color=MAIN_TEXT_COLOR, back_color=BACKGROUND_COLOR)
         img = img.resize((125, 125))
 
         # Save the QR code image using a lowercase filename

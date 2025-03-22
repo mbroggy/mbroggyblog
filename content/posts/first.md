@@ -4,6 +4,8 @@ categories:
 - blog
 date: 2024-08-16 23:16:37
 qr: /images/qr-first.png
+qr_dark: /images/qr-first-dark.png
+qr_light: /images/qr-first-light.png
 title: Once more into the breach...
 ---
 

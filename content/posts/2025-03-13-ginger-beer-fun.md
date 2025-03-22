@@ -1,13 +1,17 @@
 ---
-title: Ginger beer fun
+categories:
+- brewing
+date: 2025-03-13 13:50:52.994000
 description: Brewing ginger beer and using byproducts
-date: 2025-03-13T13:50:52.994Z
 draft: false
-tags: []
-categories: ['brewing']
 preview: /images/PXL_20250312_232136731.jpg
-qr: "/images/qr-2025-03-13-ginger-beer-fun.png" 
+qr: /images/qr-2025-03-13-ginger-beer-fun.png
+qr_dark: /images/qr-2025-03-13-ginger-beer-fun-dark.png
+qr_light: /images/qr-2025-03-13-ginger-beer-fun-light.png
+tags: []
+title: Ginger beer fun
 ---
+
 I wanted to brew a probiotic ginger beer and came away with a fun and tasty byproduct...
 <!--more-->
 

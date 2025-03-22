@@ -6,6 +6,8 @@ date: 2025-01-20 02:37:19.071000
 draft: false
 preview: ''
 qr: /images/qr-2025-01-20-hydroponics.png
+qr_dark: /images/qr-2025-01-20-hydroponics-dark.png
+qr_light: /images/qr-2025-01-20-hydroponics-light.png
 tags: []
 title: Hydroponics initial full layout
 ---

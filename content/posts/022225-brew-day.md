@@ -7,6 +7,8 @@ description: A couple of us are making brews and using brewing byproducts...
 draft: false
 preview: ''
 qr: /images/qr-022225-brew-day.png
+qr_dark: /images/qr-022225-brew-day-dark.png
+qr_light: /images/qr-022225-brew-day-light.png
 tags: []
 title: Medieval brew day Feb 22nd 2025
 ---

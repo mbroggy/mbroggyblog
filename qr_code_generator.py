@@ -18,6 +18,7 @@ MAIN_TEXT_COLOR = "#707070"
 BACKGROUND_COLOR = "#001000"
 
 for root, dirs, files in os.walk(POSTS_DIR):
+    print(f"Entering directory: {root}")  # Debug print
     for filename in files:
         if filename.endswith(".md"):
             post_path = os.path.join(root, filename)
@@ -27,41 +28,47 @@ for root, dirs, files in os.walk(POSTS_DIR):
             with open(post_path, "r", encoding="utf-8") as f:
                 post = frontmatter.load(f)
 
-            # If there's a 'slug' in front matter, use it; otherwise use the filename
-            base_name = os.path.splitext(filename)[0]
-            slug = post.get("slug", base_name)
+            # Check if the post has the 'has_qr' tag set to 'yes'
+            if post.get('has_qr') == 'yes':
+                print(f"Generating QR code for: {post_path}")  # Debug print
 
-            # Force the slug to lowercase
-            slug_lower = slug.lower()
+                # If there's a 'slug' in front matter, use it; otherwise use the filename
+                base_name = os.path.splitext(filename)[0]
+                slug = post.get("slug", base_name)
 
-            # Build the post URL using the lowercase slug
-            post_url = f"{BASE_URL}/posts/{slug_lower}/"
+                # Force the slug to lowercase
+                slug_lower = slug.lower()
 
-            # Generate the QR code with the main text color as the foreground and black as the background
-            qr = qrcode.QRCode(
-                version=1,
-                error_correction=qrcode.constants.ERROR_CORRECT_L,
-                box_size=10,
-                border=4,
-            )
-            qr.add_data(post_url)
-            qr.make(fit=True)
-            img = qr.make_image(fill_color=MAIN_TEXT_COLOR, back_color=BACKGROUND_COLOR)
-            img = img.resize((125, 125))
+                # Build the post URL using the lowercase slug
+                post_url = f"{BASE_URL}/posts/{slug_lower}/"
 
-            # Save the QR code image using a lowercase filename
-            qr_filename = f"qr-{slug_lower}.png"
-            qr_filepath = os.path.join(IMAGES_DIR, qr_filename)
-            img.save(qr_filepath)
+                # Generate the QR code with the main text color as the foreground and black as the background
+                qr = qrcode.QRCode(
+                    version=1,
+                    error_correction=qrcode.constants.ERROR_CORRECT_L,
+                    box_size=10,
+                    border=4,
+                )
+                qr.add_data(post_url)
+                qr.make(fit=True)
+                img = qr.make_image(fill_color=MAIN_TEXT_COLOR, back_color=BACKGROUND_COLOR)
+                img = img.resize((125, 125))
 
-            # Add the QR code path to the front matter if not present
-            if 'qr' not in post:
-                post['qr'] = f"/images/{qr_filename}"
-                with open(post_path, "w", encoding="utf-8") as f:
-                    f.write(frontmatter.dumps(post))
+                # Save the QR code image using a lowercase filename
+                qr_filename = f"qr-{slug_lower}.png"
+                qr_filepath = os.path.join(IMAGES_DIR, qr_filename)
+                img.save(qr_filepath)
 
-            # Print the Markdown reference with the lowercase slug
-            print(
-                f"For {filename}, use:\n"
-                f"![QR code for {slug_lower}](/images/{qr_filename})\n"
-            )
+                # Add the QR code path to the front matter if not present
+                if 'qr' not in post:
+                    post['qr'] = f"/images/{qr_filename}"
+                    with open(post_path, "w", encoding="utf-8") as f:
+                        f.write(frontmatter.dumps(post))
+
+                # Print the Markdown reference with the lowercase slug
+                print(
+                    f"For {filename}, use:\n"
+                    f"![QR code for {slug_lower}](/images/{qr_filename})\n"
+                )
+            else:
+                print(f"Skipping file (no 'has_qr: yes' tag): {post_path}")  # Debug print

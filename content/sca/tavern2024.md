@@ -1,9 +1,13 @@
 ---
-title: 'Bhakail Tavern 2024'
-description: 'Recipes from The Sign of the Fir, Bear and Lion'
-date: 2024-02-24T18:27:40-04:00
-categories: ['sca']
-tags: ['cooking', 'tavern']
+categories:
+- sca
+date: 2024-02-24 22:27:40
+description: Recipes from The Sign of the Fir, Bear and Lion
+qr: /images/qr-tavern2024.png
+tags:
+- cooking
+- tavern
+title: Bhakail Tavern 2024
 ---
 
 I love tavern-style events, those events in the SCA which tend to be low-key overall and often relaxed when it comes to food as well. <!--more-->

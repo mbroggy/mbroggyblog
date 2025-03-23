@@ -10,6 +10,7 @@ POSTS_DIRS = [
     r"c:\Users\Michael Broggy\code\mbroggyblog\content\posts",
     r"c:\Users\Michael Broggy\code\mbroggyblog\content\sca",
     r"c:\Users\Michael Broggy\code\mbroggyblog\content\tech",
+    r"c:\Users\Michael Broggy\code\mbroggyblog\content\brewing",
 ]
 IMAGES_DIR = r"c:\Users\Michael Broggy\code\mbroggyblog\static\images"
 BASE_URL = "https://xooyooz.xyz"
@@ -18,7 +19,7 @@ BASE_URL = "https://xooyooz.xyz"
 if not os.path.exists(IMAGES_DIR):
     os.makedirs(IMAGES_DIR)
 
-MAIN_TEXT_COLOR = "#707070"  
+MAIN_TEXT_COLOR = "#FFFFFF"  
 BACKGROUND_COLOR = "#001000"
 
 for POSTS_DIR in POSTS_DIRS:
@@ -33,8 +34,6 @@ for POSTS_DIR in POSTS_DIRS:
                 with open(post_path, "r", encoding="utf-8") as f:
                     post = frontmatter.load(f)
 
-                # Check if the post has the 'has_qr' tag set to 'yes'
-                if post.get('has_qr') == 'yes':
                     print(f"Generating QR code for: {post_path}")  # Debug print
 
                     # If there's a 'slug' in front matter, use it; otherwise use the filename
@@ -75,6 +74,3 @@ for POSTS_DIR in POSTS_DIRS:
                         f"For {filename}, use:\n"
                         f"![QR code for {slug_lower}](/images/{qr_filename})\n"
                     )
-                else:
-                    print(f"Skipping file (no 'has_qr: yes' tag): {post_path}")  # Debug print
-                    

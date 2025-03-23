@@ -10,6 +10,8 @@ preview: ""
 qr: ""
 has_qr: yes
 brew_brewfather_url: ""  # Brewfather link
+brew_name: ""
+brew_style: ""
 brew_date: ""  # Brew date
 brew_fermentation_end_date: ""  # Fermentation end date
 brew_og: ""  # Original Gravity

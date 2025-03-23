@@ -22,6 +22,10 @@ def resize_qr_code(qr_code_path, max_size=(100, 100)):
         img.save(resized_path)
     return resized_path
 
+# Function to sanitize filenames
+def sanitize_filename(filename):
+    return filename.replace(":", "_")
+
 # Function to generate label content
 def generate_label_content(post):
     brew_name = post.get('brew_name', post['title'])
@@ -72,13 +76,16 @@ for root, dirs, files in os.walk(POSTS_DIR):
                 # Generate label content
                 label_content = generate_label_content(post)
 
+                # Sanitize the filename
+                sanitized_title = sanitize_filename(post['title'])
+
                 # Save label content to a temporary Markdown file
-                temp_md_path = os.path.join(LABELS_DIR, f"{post['title']}.md")
+                temp_md_path = os.path.join(LABELS_DIR, f"{sanitized_title}.md")
                 with open(temp_md_path, "w", encoding="utf-8") as f:
                     f.write(label_content)
 
                 # Convert the Markdown file to a printable label using pandoc
-                label_pdf_path = os.path.join(LABELS_DIR, f"{post['title']}.pdf")
+                label_pdf_path = os.path.join(LABELS_DIR, f"{sanitized_title}.pdf")
                 subprocess.run([
                     "pandoc", temp_md_path, "-o", label_pdf_path, "--pdf-engine=xelatex",
                     "-V", "geometry:paperwidth=54mm,paperheight=70mm,margin=5mm",

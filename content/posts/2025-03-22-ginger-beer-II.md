@@ -4,9 +4,24 @@ categories:
 date: 2025-03-22
 description: Brewing ginger beer, again, and using byproducts
 draft: false
+alias: "5 gallon ginger beer"
+has_qr: yes
 qr: /images/qr-2025-03-22-ginger-beer-ii.png
 tags: []
 title: 'Ginger beer II: 5 gallons'
+brew_abv: ''
+brew_brewfather_url: ''
+brew_date: 3/22/2025
+brew_fermentation_end_date: ''
+brew_fg: ''
+brew_ibu: ''
+brew_name: Ginger beer II
+brew_notes: ''
+brew_og: '1.036'
+brew_srm: ''
+brew_style: Ginger beer
+brew_tasting_notes: ''
+brew_yeast: Muntons
 ---
 
 After the success of the last batch, I'm doing a second.  Bigger, because why not?

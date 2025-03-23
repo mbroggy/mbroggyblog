@@ -19,8 +19,8 @@ BASE_URL = "https://xooyooz.xyz"
 if not os.path.exists(IMAGES_DIR):
     os.makedirs(IMAGES_DIR)
 
-MAIN_TEXT_COLOR = "#FFFFFF"  
-BACKGROUND_COLOR = "#001000"
+MAIN_TEXT_COLOR = "#000000"  
+BACKGROUND_COLOR = "#FFFFFF"
 
 for POSTS_DIR in POSTS_DIRS:
     for root, dirs, files in os.walk(POSTS_DIR):

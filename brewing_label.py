@@ -27,6 +27,7 @@ def generate_label_content(post):
     brew_name = post.get('brew_name', post['title'])
     brew_abv = post.get('brew_abv', '')
     qr_code = post.get('qr', '')
+    brew_style = post.get('brew_style', '')
 
     # Adjust the QR code path to use the full path and resize it
     if qr_code:
@@ -39,6 +40,8 @@ def generate_label_content(post):
 # {brew_name}
 
 **ABV:** {brew_abv}
+
+**Style:** {brew_style}
 
 ![QR Code]({qr_code_path})
 """
@@ -79,7 +82,7 @@ for root, dirs, files in os.walk(POSTS_DIR):
                 subprocess.run([
                     "pandoc", temp_md_path, "-o", label_pdf_path, "--pdf-engine=xelatex",
                     "-V", "geometry:paperwidth=54mm,paperheight=70mm,margin=5mm",
-                    "-V", "caption="
+                    "-V", "caption=", "-fmarkdown-implicit_figures"
                 ])
 
                 # Remove the temporary Markdown file

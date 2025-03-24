@@ -24,7 +24,7 @@ brew_notes: ""  # Any additional notes about the brewing process
 brew_tasting_notes: ""  # Notes about the taste, aroma, and appearance
 ---
 
-<!-- Add your brewing session content here -->
+<!--more-->
 
 ## Brewing Session Details
 

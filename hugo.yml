@@ -28,6 +28,8 @@ params:
       url: "http://github.com/mbroggy"
     - name: email
       url: "mailto:mbroggy@gmail.com"
+    - name: RSS
+      url: "https://xooyooz.xyz/index.xml"
 
   ShowBreadCrumbs: true
 
@@ -43,6 +45,7 @@ params:
   ShowWordCount: true
 
   ShowRssButtonInSectionTermList: true
+  ShowFullTextinRSS: true
 
   enableGitInfo: true
 

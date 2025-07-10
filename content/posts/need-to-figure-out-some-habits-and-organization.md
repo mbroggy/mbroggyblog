@@ -11,7 +11,7 @@ I've been trying to develop some habits to help myself out in general.  Write mo
 
 I'm getting better about documenting projects as I go. This is important in some cases like [brewing](/categories/brewing) for repeatability. Or, well, [tech](/categories/tech), as when I went to remove some seemingly-unnecessary containers on my unRAID server...and wound up having to start over from scratch.
 
-But hey...now I know what access I set up in my mysql and postgres database containers, can administer them via [adminer] and know what containers are using which database engines...
+But hey...now I know what access I set up in my mysql and postgres database containers, can administer them via [adminer](https://www.adminer.org/en/) and know what containers are using which database engines with which credentials...
 
 So...journaling and documentating the whats, whys, wheres and hows can be very useful :D
 

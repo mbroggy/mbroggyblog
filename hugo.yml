@@ -1,6 +1,6 @@
 baseURL: "https://xooyooz.xyz"
 languageCode: en-us
-title: mbroggy's home
+title: ~mbroggy
 theme: PaperMod
 
 params:
@@ -34,7 +34,7 @@ params:
   ShowBreadCrumbs: true
 
   ShowShareButtons: true
-  ShareButtons: ["linkedin", "facebook"]
+  ShareButtons: ["facebook"]
 
   ShowPostNavLinks: true
 

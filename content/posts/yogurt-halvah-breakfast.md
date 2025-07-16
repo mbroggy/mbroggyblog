@@ -4,11 +4,16 @@ date: 2025-07-16T08:39:27-04:00
 categories: ['blog','food']
 draft: false
 summary: "A breakfast of homemade greek yogurt, toasted oatmeal and za'atar halvah"
+cover:
+  image: "/yogurt_halvah.jpg"
+  alt: "<a bowl of homemade greek yogurt, toasted oatmeal and za'atar halvah>"
+  caption: "<A bowl of homemade greek yogurt, toasted oatmeal and za'atar halvah>"
 
 ---
 
 <!--more-->
-![a bowl of homemade greek yogurt, toasted oatmeal and za'atar halvah](/yogurt_halvah.jpg)
+
+![a bowl of homemade greek yogurt, toasted oatmeal and za'atar halvah](/images/yogurt_halvah.jpg)
 
 I've been making yogurt - cow milk for me, goat milk for Katy - and the results have been amazing.  I prefer the creaminess and thickness of 'greek' yogurt, so I have a fine mesh strainer which really works well.
 

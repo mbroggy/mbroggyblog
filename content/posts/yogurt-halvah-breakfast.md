@@ -6,8 +6,8 @@ draft: false
 summary: "A breakfast of homemade greek yogurt, toasted oatmeal and za'atar halvah"
 cover:
   image: "/yogurt_halvah.jpg"
-  alt: "<a bowl of homemade greek yogurt, toasted oatmeal and za'atar halvah>"
-  caption: "<A bowl of homemade greek yogurt, toasted oatmeal and za'atar halvah>"
+  alt: "a bowl of homemade greek yogurt, toasted oatmeal and za'atar halvah"
+  caption: "A bowl of homemade greek yogurt, toasted oatmeal and za'atar halvah"
 
 ---
 

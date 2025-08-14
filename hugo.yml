@@ -55,6 +55,11 @@ params:
   ShowAllPagesInArchive: true
 
   favicon: /favicon.ico
+
+  markup:
+    goldmark:
+      renderer:
+        unsafe: true
   
   env: production
 

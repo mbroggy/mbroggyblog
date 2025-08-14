@@ -5,7 +5,7 @@ categories: ['blog']
 draft: false
 
 ---
-
+I didn't realize I wanted this functionality until I started pondering whether to use Obsidian as a front-end to posting to Hugo...
 <!--more-->
 Thanks to [these instructions](https://scripter.co/parsing-backlinks-in-hugo/) I have added backlinking to the site.  It'll help tie things together more ([this](/posts/testing-attribution/) ties back to [this related post](/posts/mastodon-attribution-testing/)), though there may be other ways to do it, especially if I reconsider using Obsidian as where I write everything...
 

@@ -4,6 +4,8 @@ title: ~mbroggy
 theme: PaperMod
 
 params:
+  mainSections:
+    - notes
 
   comments: false
   # Set the number of posts per page
@@ -32,26 +34,18 @@ params:
       url: "https://xooyooz.xyz/index.xml"
 
   ShowBreadCrumbs: true
-
+  TocOpen: true
   ShowShareButtons: true
   ShareButtons: ["facebook"]
-
   ShowPostNavLinks: true
-
   ShowCodeCopyButtons: true
-
   disableSpecial1stPost: false
-
   ShowWordCount: true
-
   ShowRssButtonInSectionTermList: true
   ShowFullTextinRSS: true
-
   enableGitInfo: true
-
   ShowToc: true
-  TocOpen: false
-
+  TocOpen: true
   ShowAllPagesInArchive: true
 
   favicon: /favicon.ico
@@ -63,6 +57,12 @@ params:
   
   env: production
 
+taxonomies:
+  tag: tags
+  topic: topics
+  stage: stages
+
+
 outputs:
   home:
     - HTML
@@ -72,6 +72,8 @@ outputs:
 cover:
   linkFullImages: true
 
+permalinks:
+  notes: "/posts/:slug/"
 menu:
   main:
     - identifier: Blog

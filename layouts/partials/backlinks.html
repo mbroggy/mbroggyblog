@@ -1,22 +1,24 @@
-{{ $backlinks := slice }}
-{{ $path_base := .page.File.ContentBaseName }}
-{{ $path_base_re := printf `["/(]%s["/)]` $path_base }}
+{{- $current := .RelPermalink -}}
+{{- $hits := slice -}}
 
-{{ range where site.RegularPages "RelPermalink" "ne" .page.RelPermalink }}
-    {{ if (findRE $path_base_re .RawContent 1) }}
-        {{ $backlinks = $backlinks | append . }}
-    {{ end }}
-{{ end }}
+{{- range .Site.RegularPages -}}
+  {{- if and (ne .RelPermalink $current) (in .Content $current) -}}
+    {{- $hits = $hits | append . -}}
+  {{- end -}}
+{{- end -}}
 
-{{ with $backlinks }}
-    <section class="backlinks">
-        {{ printf "%s" ($.heading | default "<em>Backlinks</em>") | safeHTML }}
-        <nav>
-            <ul>
-                {{ range . }}
-                    <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-                {{ end }}
-            </ul>
-        </nav>
-    </section>
-{{ end }}
+{{- if gt (len $hits) 0 -}}
+<hr />
+<section>
+  <h2>Backlinks</h2>
+  <ul>
+  {{- range $hits.ByLastmod.Reverse -}}
+    <li>
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      <small> (updated {{ .Lastmod.Format "2006-01-02" }})</small>
+    </li>
+  {{- end -}}
+  </ul>
+</section>
+{{- end -}}
+

@@ -1,0 +1,3 @@
+.post-content p {
+    margin-bottom: calc(var(--content-gap) * 1.4);
+}

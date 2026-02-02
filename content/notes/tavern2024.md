@@ -8,6 +8,7 @@ tags:
 - cooking
 - tavern
 title: Bhakail Tavern 2024
+stage: seed
 ---
 
 I love tavern-style events, those events in the SCA which tend to be low-key overall and often relaxed when it comes to food as well. <!--more-->

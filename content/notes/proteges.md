@@ -4,6 +4,7 @@ categories:
 date: 2024-08-30 22:27:40
 qr: /images/qr-proteges.png
 title: Proteges
+stage: seed
 ---
 
 I have a few proteges in the SCA; while I will teach anyone who asks, I don't require that they be my protege

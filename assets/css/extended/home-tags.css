@@ -1,0 +1,18 @@
+.home-tags {
+    color: var(--secondary);
+    font-size: 0.85em;
+    margin-left: 8px;
+}
+
+.home-tags a {
+    box-shadow: none;
+    color: inherit;
+    text-decoration: underline;
+    text-decoration-color: color-mix(in srgb, var(--secondary) 65%, transparent);
+    text-underline-offset: 2px;
+}
+
+.home-tags a:hover {
+    color: var(--primary);
+    text-decoration-color: currentColor;
+}

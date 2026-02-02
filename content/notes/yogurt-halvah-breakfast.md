@@ -8,7 +8,7 @@ cover:
   image: "/yogurt_halvah.jpg"
   alt: "a bowl of homemade greek yogurt, toasted oatmeal and za'atar halvah"
   caption: "A bowl of homemade greek yogurt, toasted oatmeal and za'atar halvah"
-
+stage: seed
 ---
 
 <!--more-->

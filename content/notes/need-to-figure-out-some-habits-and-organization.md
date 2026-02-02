@@ -2,6 +2,7 @@
 title: 'Need to Figure Out Some Habits and Organization'
 date: 2025-07-09T21:31:14-04:00
 draft: false
+stage: seed
 ---
 Or "This seems like a good idea; how can I stick with it and smash some order into it?"
 <!--more-->

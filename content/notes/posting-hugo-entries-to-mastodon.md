@@ -6,6 +6,7 @@ categories:
 - blog
 - tech
 description: Testing a Huginn workflow, snagging Hugo posts via RSS to post to Mastodon...
+stage: seed
 ---
 Leveraging a couple of articles and a friend's suggestion of Huginn, this might actually work...
 <!--more-->

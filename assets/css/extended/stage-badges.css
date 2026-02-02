@@ -1,0 +1,51 @@
+.stage-badge {
+    --stage-bg: #e9efe6;
+    --stage-fg: #355230;
+    --stage-stroke: #8ea787;
+    align-items: center;
+    border: 1px solid var(--stage-stroke);
+    border-radius: 999px;
+    color: var(--stage-fg);
+    display: inline-flex;
+    font-size: 12px;
+    gap: 6px;
+    line-height: 1;
+    padding: 4px 10px;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.stage-badge .stage-icon {
+    fill: var(--stage-fg);
+    height: 16px;
+    stroke: var(--stage-fg);
+    stroke-width: 1.6;
+    width: 16px;
+}
+
+.stage-badge .stage-label {
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+}
+
+.stage-seed {
+    --stage-bg: #eef3e2;
+    --stage-fg: #2f4b2c;
+    --stage-stroke: #9db48d;
+}
+
+.stage-tree {
+    --stage-bg: #e6f2f0;
+    --stage-fg: #1f4c4a;
+    --stage-stroke: #7fb1aa;
+}
+
+.stage-fruit {
+    --stage-bg: #f7e9e4;
+    --stage-fg: #6b2f22;
+    --stage-stroke: #d2a08e;
+}
+
+.stage-badge {
+    background: var(--stage-bg);
+}

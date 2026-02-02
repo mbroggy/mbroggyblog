@@ -2,6 +2,7 @@
 title: 'Algebraist'
 date: 2024-08-30T18:28:49-04:00
 categories: ['books']
+stage: seed
 ---
 
 Title: The Algebraist

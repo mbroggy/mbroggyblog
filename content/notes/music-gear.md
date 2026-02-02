@@ -4,6 +4,7 @@ date: 2024-09-01T18:28:00-04:00
 categories: ['music']
 tags: ['bass','gear','instruments']
 draft: ['false']
+stage: seed
 ---
 
 Before going into any practicing, etc. I might be doing, here's the gear I have, starting with what I use most often:

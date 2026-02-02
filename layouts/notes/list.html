@@ -15,9 +15,8 @@
     </div>
     <footer class="entry-footer">
       Updated {{ .Lastmod.Format "2006-01-02" }}
-      {{ with .Params.stage }} · {{ . }}{{ end }}
+      {{ with .Params.stage }} · {{ partial "stage_badge.html" $ }}{{ end }}
     </footer>
   </article>
 {{ end }}
 {{ end }}
-

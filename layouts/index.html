@@ -1,15 +1,19 @@
 {{ define "main" }}
 <header class="page-header">
   <h1>Garden</h1>
-  <p>Recently tended notes and projects.</p>
+  <p>This site is my digital garden. Here, you'll find notes and projects at various stages of growth:</p>
+  <ul class="home-intro-list">
+    <li><strong>Seeds</strong> (ideas/notes/etc. which may not be fleshed out yet)</li>
+    <li><strong>Trees</strong> (developing concepts)</li>
+    <li><strong>Fruits</strong> (matured projects/essays)</li>
+  </ul>
+  <br>
+  <p>Feel free to explore and see how my thoughts and work evolve over time.</p>
 </header>
 
 {{ $notes := where .Site.RegularPages "Section" "notes" }}
-<h2 class="stage-heading">
-  <svg class="stage-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
-    <ellipse cx="12" cy="12.5" rx="6.5" ry="8.5" />
-    <path d="M12 5c2.2 2.4 3.3 4.9 3.3 7.6 0 2.9-1.3 5.2-3.3 6.8" />
-  </svg>
+<h2 class="stage-heading stage-seed">
+  <i class="fa-solid fa-seedling stage-icon" aria-hidden="true"></i>
   recent Seeds
 </h2>
 {{ $seeds := where $notes "Params.stage" "seed" }}
@@ -27,11 +31,8 @@
 {{ end }}
  </ul>
 
-<h2 class="stage-heading">
-  <svg class="stage-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
-    <circle cx="12" cy="9" r="6.5" />
-    <rect x="10.5" y="13" width="3" height="8" rx="0.8" />
-  </svg>
+<h2 class="stage-heading stage-tree">
+  <i class="fa-solid fa-tree stage-icon" aria-hidden="true"></i>
   recent Trees
 </h2>
 {{ $trees := where $notes "Params.stage" "tree" }}
@@ -48,12 +49,8 @@
   </li>
 {{ end }}
  </ul>
-<h2 class="stage-heading">
-  <svg class="stage-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
-    <circle cx="12" cy="12.5" r="6.5" />
-    <path d="M12 4c2 0 3.5 1 4.2 2.6" />
-    <path d="M12 5.5c-1.4-1.8-2.8-2.3-4.6-2.3" />
-  </svg>
+<h2 class="stage-heading stage-fruit">
+  <i class="fa-solid fa-apple-whole stage-icon" aria-hidden="true"></i>
   recent Fruits
 </h2>
 {{ $fruits := where $notes "Params.stage" "fruit" }}

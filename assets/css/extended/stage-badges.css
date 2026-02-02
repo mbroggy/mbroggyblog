@@ -49,3 +49,43 @@
 .stage-badge {
     background: var(--stage-bg);
 }
+
+.stage-heading {
+    align-items: center;
+    display: inline-flex;
+    gap: 8px;
+}
+
+.stage-heading .stage-icon {
+    height: 18px;
+    width: 18px;
+}
+
+.dark .stage-badge {
+    --stage-bg: #1c2a1c;
+    --stage-fg: #d6e3d0;
+    --stage-stroke: #3b5a3a;
+}
+
+.dark .stage-seed {
+    --stage-bg: #1a2618;
+    --stage-fg: #d6e3d0;
+    --stage-stroke: #3b5a3a;
+}
+
+.dark .stage-tree {
+    --stage-bg: #152322;
+    --stage-fg: #d1e2e0;
+    --stage-stroke: #2f4f4d;
+}
+
+.dark .stage-fruit {
+    --stage-bg: #2a1a17;
+    --stage-fg: #f0d5cc;
+    --stage-stroke: #6b3a2e;
+}
+
+.dark .stage-heading .stage-icon {
+    fill: currentColor;
+    stroke: currentColor;
+}

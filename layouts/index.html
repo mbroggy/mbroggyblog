@@ -5,10 +5,16 @@
 </header>
 
 {{ $notes := where .Site.RegularPages "Section" "notes" }}
-<h2>Seeds</h2>
+<h2 class="stage-heading">
+  <svg class="stage-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+    <ellipse cx="12" cy="12.5" rx="6.5" ry="8.5" />
+    <path d="M12 5c2.2 2.4 3.3 4.9 3.3 7.6 0 2.9-1.3 5.2-3.3 6.8" />
+  </svg>
+  recent Seeds
+</h2>
 {{ $seeds := where $notes "Params.stage" "seed" }}
-<ul>
-{{ range first 10 $seeds.ByLastmod.Reverse }}
+<ul class="home-stage-list">
+{{ range first 5 $seeds.ByLastmod.Reverse }}
   <li>
     <a href="{{ .RelPermalink }}">{{ .Title }}</a>
     {{ with .Params.stage }} {{ partial "stage_badge.html" $ }}{{ end }}
@@ -19,5 +25,49 @@
     {{ end }}
   </li>
 {{ end }}
-</ul>
+ </ul>
+
+<h2 class="stage-heading">
+  <svg class="stage-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+    <circle cx="12" cy="9" r="6.5" />
+    <rect x="10.5" y="13" width="3" height="8" rx="0.8" />
+  </svg>
+  recent Trees
+</h2>
+{{ $trees := where $notes "Params.stage" "tree" }}
+<ul class="home-stage-list">
+{{ range first 5 $trees.ByLastmod.Reverse }}
+  <li>
+    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    {{ with .Params.stage }} {{ partial "stage_badge.html" $ }}{{ end }}
+    {{ with (.GetTerms "tags") }}
+    <span class="home-tags">
+      {{ range $i, $t := . }}{{ if $i }}, {{ end }}<a href="{{ $t.RelPermalink }}">{{ $t.LinkTitle }}</a>{{ end }}
+    </span>
+    {{ end }}
+  </li>
+{{ end }}
+ </ul>
+<h2 class="stage-heading">
+  <svg class="stage-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+    <circle cx="12" cy="12.5" r="6.5" />
+    <path d="M12 4c2 0 3.5 1 4.2 2.6" />
+    <path d="M12 5.5c-1.4-1.8-2.8-2.3-4.6-2.3" />
+  </svg>
+  recent Fruits
+</h2>
+{{ $fruits := where $notes "Params.stage" "fruit" }}
+<ul class="home-stage-list">
+{{ range first 5 $fruits.ByLastmod.Reverse }}
+  <li>
+    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    {{ with .Params.stage }} {{ partial "stage_badge.html" $ }}{{ end }}
+    {{ with (.GetTerms "tags") }}
+    <span class="home-tags">
+      {{ range $i, $t := . }}{{ if $i }}, {{ end }}<a href="{{ $t.RelPermalink }}">{{ $t.LinkTitle }}</a>{{ end }}
+    </span>
+    {{ end }}
+  </li>
+{{ end }}
+ </ul>
 {{ end }}

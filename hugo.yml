@@ -76,22 +76,30 @@ permalinks:
   notes: "/posts/:slug/"
 menu:
   main:
-    - identifier: Blog
-      name: Blog
-      url: /categories/blog/
-      weight: 1
     - identifier: recently-updated
       name: Recently Updated
       url: /updates/
+      weight: 1
+    - identifier: seeds
+      name: Seeds
+      url: /seeds/
       weight: 2
+    - identifier: trees
+      name: Trees
+      url: /trees/
+      weight: 3
+    - identifier: fruits
+      name: Fruits
+      url: /fruits/
+      weight: 4
     - identifier: Search
       name: Search
       url: search
-      weight: 3
+      weight: 5
     - identifier: about
       name: About
       url: /about/
-      weight: 4
+      weight: 6
     - identifier: categories
       name: Categories
       url: /categories/

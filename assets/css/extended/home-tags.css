@@ -16,3 +16,8 @@
     color: var(--primary);
     text-decoration-color: currentColor;
 }
+
+.home-stage-list {
+    margin-bottom: 24px;
+    padding-left: 44px;
+}

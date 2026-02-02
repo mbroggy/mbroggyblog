@@ -3,7 +3,7 @@ title: 'Fermenting Backyard Veg'
 date: 2025-08-16T21:50:58-04:00
 categories: ['blog','food']
 draft: false
-stage: seed
+stage: fruit
 ---
 When life hands you, uh, grape tomatoes...
 <!--more-->

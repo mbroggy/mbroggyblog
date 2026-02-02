@@ -10,12 +10,13 @@
 }
 
 .dark {
-    --theme: #001000;
-    --entry: #051505;
-    --primary: #7d7d7d;
-    --secondary: #7d7d7d;
-    --tertiary: #312c01;
-    --content: #7d7d7d;
-    --hljs-bg: #052505;
-    --code-bg: #051505;
+    --theme: #141414;
+    --entry: #1c1c1c;
+    --primary: #e2e2e2;
+    --secondary: #b3b3b3;
+    --tertiary: #3a2f20;
+    --content: #d6d6d6;
+    --hljs-bg: #111111;
+    --code-bg: #1a1a1a;
+    --border: #2f2f2f;
 }
